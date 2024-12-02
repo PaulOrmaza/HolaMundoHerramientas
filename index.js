@@ -10,7 +10,7 @@ function mensaje(req,resp){
     //ESTADO 200 SATISFACTORIO ,MENSAJE DE TIPO TEXTO PLANO CONFIGURADO MEDIANTE JSON
     resp.writeHead(200,{'content-type':'text/plain'});
     //ESCRIBO EL MENSAJE 
-    resp.write('HOLA MUNDO');
+    resp.write('HOLA MUNDO PAUL ORMAZA');
     resp.end();
 
 
